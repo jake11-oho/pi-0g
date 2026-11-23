@@ -1,5 +1,5 @@
 {
-  "name": "pi-0g",
+  "name": "pi-0g-provider",
   "version": "0.1.0",
   "description": "pi provider for 0G: every chat model 0G's router serves, with measured reasoning controls",
   "type": "module",

@@ -6,7 +6,7 @@ sent as OpenAI chat completions to `https://router-api.0g.ai/v1`.
 ## Install
 
 ```sh
-pi install npm:pi-0g            # or: pi install git:github.com/jake11-oho/pi-0g
+pi install npm:pi-0g-provider   # or: pi install git:github.com/jake11-oho/pi-0g
 export OG_API_KEY=sk-...        # an API key from https://pc.0g.ai
 pi --model 0g/glm-5.3-flash
 ```
