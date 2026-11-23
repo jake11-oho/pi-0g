@@ -1,0 +1,37 @@
+{
+  "name": "pi-0g",
+  "version": "0.1.0",
+  "description": "pi provider for 0G: every chat model 0G's router serves, with measured reasoning controls",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "0g",
+    "provider"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jake11-oho/pi-0g.git"
+  },
+  "homepage": "https://github.com/jake11-oho/pi-0g#readme",
+  "bugs": {
+    "url": "https://github.com/jake11-oho/pi-0g/issues"
+  },
+  "files": [
+    "index.ts",
+    "models.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "scripts": {
+    "test": "bun test ./models.test.ts"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
